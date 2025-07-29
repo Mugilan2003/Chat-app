@@ -36,9 +36,8 @@ Chat-app/
 
 ## 📸 Screenshots
 
-| Server Console | Chat Client UI |
-|----------------|----------------|
-| ![Server](screenshots/server.png) | ![Client](screenshots/client.png) |
+<img width="1144" height="562" alt="chatapp3" src="https://github.com/user-attachments/assets/2e7fa288-3303-436c-8deb-9c564d38c552" />
+
 
 ---
 
