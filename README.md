@@ -29,9 +29,13 @@ A simple **real-time chat application** built using **Java Sockets**, **Threads*
 ## 📁 Project Structure
 Chat-app/
 ├── messenger2/
+
 │ ├── ChatServer.java # Main server that accepts and handles client sockets
+
 │ ├── ClientHandler.java # Runnable class for individual client handling
+
 │ └── ChatClient.java # GUI client application
+
 ---
 
 ## 📸 Screenshots
