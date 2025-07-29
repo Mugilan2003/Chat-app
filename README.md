@@ -1,4 +1,3 @@
-```markdown
 # 💬 Java Chat Application
 
 A simple **real-time chat application** built using **Java Sockets**, **Threads**, and **Swing GUI**, allowing multiple users to chat with each other in a group or privately. This project demonstrates Java networking, basic encryption, and multithreaded programming concepts.
@@ -28,22 +27,19 @@ A simple **real-time chat application** built using **Java Sockets**, **Threads*
 ---
 
 ## 📁 Project Structure
-
-```
-
 Chat-app/
 ├── messenger2/
-│   ├── ChatServer.java       # Main server that accepts and handles client sockets
-│   ├── ClientHandler.java    # Runnable class for individual client handling
-│   └── ChatClient.java       # GUI client application
-
-````
-
+│ ├── ChatServer.java # Main server that accepts and handles client sockets
+│ ├── ClientHandler.java # Runnable class for individual client handling
+│ └── ChatClient.java # GUI client application
 ---
 
 ## 📸 Screenshots
 
-<img width="1144" height="562" alt="chatapp3" src="https://github.com/user-attachments/assets/127df2fc-ff62-4fed-a5a2-daf241a758f1" />
+| Server Console | Chat Client UI |
+|----------------|----------------|
+| ![Server](screenshots/server.png) | ![Client](screenshots/client.png) |
+
 ---
 
 ## 🧪 How to Run
@@ -52,25 +48,14 @@ Chat-app/
 ```bash
 git clone https://github.com/Mugilan2003/Chat-app.git
 cd Chat-app
-````
 
 ### 2. Compile and Run the Server
-
-```bash
 javac messenger2/ChatServer.java messenger2/ClientHandler.java
 java messenger2.ChatServer
-```
 
 ### 3. Compile and Run the Client (in a new terminal)
-
-```bash
 javac messenger2/ChatClient.java
 java messenger2.ChatClient
-```
-
-> 🔁 Repeat Step 3 to connect multiple clients.
-
----
 
 ## 🔐 Message Encryption
 
@@ -79,11 +64,8 @@ A simple Caesar cipher is used:
 * Encryption: Each character shifted by `+2` ASCII
 * Decryption: Shifted back by `-2` ASCII
 
-> This is for demonstration only. For real applications, use strong encryption methods like AES.
 
----
-
-## 📦 Future Enhancements (Optional)
+## 📦 Future Enhancements
 
 * User authentication
 * Emoji and file sharing
@@ -103,7 +85,3 @@ A simple Caesar cipher is used:
 ## 📄 License
 
 This project is open-source and free to use for educational purposes.
-
-```
-
-
