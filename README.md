@@ -37,6 +37,8 @@ Chat-app/
 ## 📸 Screenshots
 
 <img width="1144" height="562" alt="chatapp3" src="https://github.com/user-attachments/assets/2e7fa288-3303-436c-8deb-9c564d38c552" />
+<img width="1221" height="724" alt="chatapp1" src="https://github.com/user-attachments/assets/56663fe8-5ec8-48e4-a728-9e96d3f7f173" />
+<img width="891" height="702" alt="chatapp2" src="https://github.com/user-attachments/assets/f238e465-a0d9-4539-b955-e2ac43754e68" />
 
 
 ---
